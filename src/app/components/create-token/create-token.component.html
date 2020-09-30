@@ -1,0 +1,31 @@
+<!-- <div class="card"> -->
+<h2 class="card-text text-center">Create Token Example</h2>
+<!-- <div class="card-body">
+
+  <div class="card">
+    <div class="card-">
+      <div class="card-body">
+
+      </div>
+
+    </div>
+  </div>
+</div>
+ -->
+
+
+<div class="row">
+    <div class="col-md-6 offset-3">
+        <div class="card">
+            <div class="card-body">
+                <img src="https://asset.msi.com/ca/picture/news/2018/nb/03_MSI_NB_-GS65-Stealth-Thin_photo03.png" alt="msi gold" class="img-fluid">
+            </div>
+            <div class="form-group container">
+                <ngx-stripe-card [options]="cardOptions" [elementsOptions]="elementsOptions">
+                </ngx-stripe-card>
+            </div>
+            <button type="submit" class="btn btn-info d-block text-center" (click)="createPayMethod()">Comprar</button>
+        </div>
+    </div>
+</div>
+<!-- </div> -->
